@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard | By Code Info</title>
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <link rel="stylesheet" href="/public/user.css"/>
+</head>
+<body>
+  
+	  
+
+    <div class="main-body">
+      <!-- <h2>Profile </h2> -->
+      <div class="promo_card">
+        <h1>Welcome User Name</h1>
+        <!-- <span>Search for other Users</span> -->
+      </div>
+	  <div class="container">
+		<div class="a">
+		<div class="topnav">
+			<a class="active" href="#home">Home</a>
+			<a href="#about">Profile</a>
+			<a href="#contact">Publication</a>
+			<a href="#contact">Project</a>
+			<a href="#contact">Subject As TA</a>
+			<!-- <input type="text" placeholder="Search.."> -->
+			<form method = "POST" action = "/search_user">
+				<input type="text" name="" id="" placeholder="search">
+			</form>
+		  </div>
+		</div>
+	  <!-- <div class = "search"> 
+		<form method = "POST" action = "/search_user">
+		<input type="text" name="" id="" placeholder="search">
+		</form></div> -->
+      <div class="history_lists">
+        <div class="list1">
+          <div class="row">
+            <h4>Project Groups</h4>
+          </div>
+		<table>
+			<thead>
+				<tr>
+					<th>Publication</th>
+					<th>Author(s)</th>
+					<th>Publication Date</th>
+					<th>Publisher</th>
+					<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Publication 1</td>
+					<td>Author 1, Author 2</td>
+					<td>01 Jan 2022</td>
+					<td>Publisher A</td>
+					<td>Location A</td>
+				</tr>
+				<tr>
+					<td>Publication 2</td>
+					<td>Author 3, Author 4</td>
+					<td>01 Feb 2022</td>
+					<td>Publisher B</td>
+					<td>Location B</td>
+				</tr>
+				<tr>
+					<td>Publication 3</td>
+					<td>Author 5, Author 6</td>
+					<td>01 Mar 2022</td>
+					<td>Publisher C</td>
+					<td>Location C</td>
+				</tr>
+			</tbody>
+		</table>
+        </div>
+        <div class="history_lists">
+        <div class="row">
+            <h4>Subjects AS TA</h4>
+          </div>
+        <table>
+			<thead>
+				<tr>
+					<th>Subjects</th>	
+				</tr>
+			</thead>
+            <tbody>
+				<tr>
+					<td>Subject 2</td>
+				</tr>
+				<tr>
+					<td>Subject 2</td>
+					
+				</tr>
+				<tr>
+					<td>Subject 3</td>
+				</tr>
+			</tbody>
+		</table>
+      </div>
+
+      <div class="history_lists">
+        <div class="row">
+            <h4>Publication</h4>
+          </div>
+        <table>
+			<thead>
+				<tr>
+					<th>Publication:</th>	
+				</tr>
+			</thead>
+            <tbody>
+				<tr>
+					<td>Publication 1</td>
+				</tr>
+				<tr>
+					<td>Publication 2</td>
+					
+				</tr>
+				<tr>
+					<td>Publication 3</td>
+				</tr>
+			</tbody>
+		</table>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
