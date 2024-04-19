@@ -9,7 +9,11 @@ const { addListener } = require('nodemon');
 const notifier = require('node-notifier')
 const bcrypt = require('bcrypt');
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb+srv://admin:xhBJxsjAn8oLKR6k@main.dttg1p4.mongodb.net/BDA_Labs");
+mongoose.connect("mongodb+srv://deepanju014:rqeAm7um6ofjtLn4@bdalab.xtsorzr.mongodb.net/BDA_Labs");
+const db=mongoose.connection;
+db.on("connected",()=>{
+    console.log("Database connected");
+});
 const adminKey = 'admin';
 const userKey = 'user';
 
